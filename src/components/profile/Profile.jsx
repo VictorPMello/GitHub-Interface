@@ -1,4 +1,5 @@
 import useGithub from "../../hooks/githubHooks";
+
 import * as S from "./style";
 
 const Profile = () => {
@@ -6,10 +7,7 @@ const Profile = () => {
 
   return (
     <S.Wrapper>
-      <S.WrapperImage
-        src={githubState.user.avatar}
-        alt="Avatar of user"
-      />
+      <S.WrapperImage src={githubState.user.avatar} alt="Avatar of user" />
 
       <S.WrapperInfoUser>
         <div>

@@ -1,6 +1,7 @@
 import App from "./App";
-import { ResetCSS } from "./global/resetCSS";
 import GithubProvider from "./provider/GithubProvider";
+
+import { ResetCSS } from "./global/resetCSS";
 
 const Providers = () => {
   return (

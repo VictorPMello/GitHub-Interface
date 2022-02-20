@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
     border-radius: 0.5rem;
     width: 100%;
     height: 2.75rem;
-    padding: .5rem;
+    padding: 0.5rem;
     font-weight: 500;
   }
 
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     font-weight: bold;
     font-size: 1rem;
     color: #fff;
-    transition: background .2s ease;
+    transition: background 0.2s ease;
 
     &:hover {
       background-color: #395ca0;
