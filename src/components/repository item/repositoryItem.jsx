@@ -1,4 +1,4 @@
-const RepositoryItem = ({name, linkToRepo, fullName}) => {
+const RepositoryItem = ({ name, linkToRepo, fullName }) => {
   return (
     <div>
       <h2>{name}</h2>
